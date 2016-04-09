@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Lego",
+    "id": "100101",
+    "quantity": "50"
+  },
+  {
+    "name": "Jojo",
+    "id": "100102",
+    "quantity": "250"
+  },
+  {
+    "name": "Rocking horse",
+    "id": "100103",
+    "quantity": "2"
+  },
+  {
+    "name": "Barbie doll",
+    "id": "100104",
+    "quantity": "10"
+  }
+]

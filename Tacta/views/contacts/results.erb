@@ -1,0 +1,6 @@
+
+<h2>Results</h2>
+
+<% contacts = read_contacts
+search_term = {search: params[:search]}
+@contacts[:name].select {|contact| search_term} %>

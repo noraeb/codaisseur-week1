@@ -1,0 +1,9 @@
+<h2>Edit Toy</h2>
+
+<form action="/toys/<%= @i %>/update" method="POST">
+  <p>Name: <input type="text" name="name" value="<%= @toys[:name] %>"></p>
+  <p>ID: <input type="text" name="id" value="<%= @toys[:id] %>"></p>
+  <p>Quantity: <input type="text" name="quantity" value="<%= @toys[:quantity] %>"></p>
+  <input type="Submit" value="Update">
+  <button><a href="/toys/<%= @i %>">Cancel</a></button>
+</form>
